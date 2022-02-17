@@ -8,7 +8,7 @@ optionsList.forEach((option) => {
     option.addEventListener('click', () => {
         selected.innerHTML = option.querySelector('label').innerHTML;
         optionsContainer.classList.remove('active');
-        option.querySelector('label').innerHTML === 'Brasil' ? flag.style.backgroundImage = "url('/assets/br.png')" : flag.style.backgroundImage = "url('/assets/eua.png')"
+        option.querySelector('label').innerHTML === 'Brasil' ? flag.style.backgroundImage = "url('assets/br.png')" : flag.style.backgroundImage = "url('assets/eua.png')"
     });
 });
 
